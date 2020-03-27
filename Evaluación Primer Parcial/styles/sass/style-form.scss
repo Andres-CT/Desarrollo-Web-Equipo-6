@@ -16,13 +16,23 @@ h1{
     padding-left:10px;
     
 }
-.nav-bar > li {
-    padding-left:30px;
-    padding-right:30px;
-} 
-
 #navbarNavDropdown li {
     font-size: 1.5vw;
     padding-left:40px;
     padding-right:40px;
+}
+
+.container #report-number {
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    margin: 0 auto;
+
+}
+
+#button1, #button2 {
+    display: inline-block;
+    text-align: center;
 }

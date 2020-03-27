@@ -4,15 +4,47 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="estilo/style-form.css" rel="stylesheet"> 
+    <link href="styles/css/style-form.css" rel="stylesheet"> 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Reporte</title>
   </head>
+  <header>
+    <div class="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">
+          <img src="images/Logo_CDMX.png" alt="Responsive image" class="img-fluid">
+          <img src="images/Logo_Dependencia.png" alt="Responsive image" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index2.html">Reporte<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Estado</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="adminlogin.html">Admin</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
   <body>
     <div class="container">
-        <h1>Ingresa a tu cuenta</h1>
+      <br><br>  
+      <h1>Ingresa a tu cuenta</h1>
+      <br>
           <h2>Bienvenido</h2>
           <p class="text-secondary">Ingresa el correo electrónico y la contraseña con el que te encuentras registrado en el sistema. 
           </p>  
@@ -25,7 +57,7 @@
                 <label for="exampleInputPassword1">Contraseña</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu contraseña">
               </div>
-              <button type="submit" class="btn btn-primary">Ingresar</button>
+              <a href="activereports.html"><button type="button" class="btn btn-success">Enviar</button></a> 
         </div>
     </div>
     <!-- Optional JavaScript -->

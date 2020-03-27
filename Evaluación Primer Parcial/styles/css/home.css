@@ -9963,5 +9963,28 @@ h3 {
 }
 
 /*Ribbon source: https://codepen.io/nxworld/pen/oLdoWb*/
+.navbar-brand {
+  width: 50%;
+  height: auto;
+}
+
+.nav-bar img {
+  width: 45%;
+  height: auto;
+  min-height: auto;
+  min-width: 240px;
+  padding-left: 10px;
+}
+
+.nav-bar > li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#navbarNavDropdown li {
+  font-size: 1.5vw;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 /*# sourceMappingURL=home.css.map */
