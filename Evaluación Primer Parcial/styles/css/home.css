@@ -9875,6 +9875,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  overflow: hidden;
+}
+
 .btn.btn-primary {
   background-color: #29a538;
   border-color: #29a538;

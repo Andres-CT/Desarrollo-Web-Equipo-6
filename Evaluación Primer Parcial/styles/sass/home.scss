@@ -1,6 +1,9 @@
 @import "../bootstrap/bootstrap.scss";  
 @import "variables.scss";
 
+  body{
+    overflow: hidden;
+  }
   .btn.btn-primary{
     background-color: $Home_Button_Color;
     border-color: $Home_Button_Color;
