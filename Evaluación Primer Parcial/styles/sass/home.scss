@@ -1,16 +1,19 @@
-@import "../bootstrap/bootstrap.scss";  
-@import "variables.scss";
+@import "common.scss";  
+@import "custom-variables.scss";
+
+  body{
+    overflow-x: hidden;
+  }
 
   .btn.btn-primary{
-    background-color: yellow;
-    border-color: white;
+    background-color: $Home_Button_Color;
+    border-color: $Home_Button_Color;
   }
   /* common */
   .ribbon {
     width: 150px;
     height: 150px;
-    z-index: 0;
-    overflow: visible;
+    overflow: hidden;
     position: absolute;
   }
   .ribbon::before,
@@ -28,7 +31,7 @@
     background-color: $Ribbon_Color;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     color: #fff;
-    font: 700 16px/1 'Lato', sans-serif;
+    font: 700 15px/1 'Lato', sans-serif;
     text-shadow: 0 1px 1px rgba(0,0,0,.2);
     text-transform: uppercase;
     text-align: center;
@@ -88,45 +91,43 @@
     width: 50%;
     height: auto;
 }
-.nav-bar img {
-    width: 45%;
-    height: auto;
-    min-height: auto;
-    min-width: 200px;
-    padding-left:10px;
-    
-}
-.nav-bar > li {
-    padding-left:30px;
-    padding-right:30px;
-} 
+  .nav-bar img {
+      width: 45%;
+      height: auto;
+      min-height: auto;
+      min-width: 200px;
+      padding-left:10px;
+      
+  }
+  .nav-bar > li {
+      padding-left:30px;
+      padding-right:30px;
+  } 
 
-#navbarNavDropdown li {
-    font-size: 1.5vw;
-    padding-left:40px;
-    padding-right:40px;
-}
-.container .img-fluid {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
-.container .mt-4, h2 {
-  text-align: center;
-}
-.container .card-header{
-  text-align: center;
-  background-color: yellow;
-}
+  #navbarNavDropdown li {
+      font-size: 1.5vw;
+      padding-left:40px;
+      padding-right:40px;
+  }
+  .container .img-fluid {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .container .mt-4, h2 {
+    text-align: center;
+  }
+  .container .card-header{
+    text-align: center;
+  }
 
-.container .card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: yellow;
-}
+  .container .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.container .btn {
-  display: inline-block;
-  margin: 5px;    
-}
+  .container .btn {
+    display: inline-block;
+    margin: 5px;    
+  }

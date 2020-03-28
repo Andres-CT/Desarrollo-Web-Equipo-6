@@ -1,8 +1,9 @@
-@import "../bootstrap/bootstrap.scss";  
-@import "variables.scss";
+@import "common.scss";  
+@import "custom-variables.scss";
+@import "../sass/style-form.scss";
 
 td img
 {
-    border: 3px;
+    border: 5px;
     border-color: black;
 }
