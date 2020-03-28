@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Reportes Activos</title>
+    <title>Reporte</title>
   </head>
   <header>
     <div class="nav-bar">
@@ -22,11 +22,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="activereports.html">Reportes Activos<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="report.html">Lista</a>
+              <a class="nav-link" href="listareportes.html">Lista</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Logout</a>
@@ -40,32 +40,59 @@
   </header>
   <body>
     <div class="container">
-        <h1>Reportes</h1>
-          <h2>Reporte 000000#</h2>
-          <p class="text-secondary">Para ingresar a cada reporte, da clic en el. 
-          </p>  
+      <br><br>
+      <h1>Reportes</h1>
+        <h2>Reporte 000000#</h2>
+        <p class="text-secondary">Información de reporte:</p>  
         <div id="lista-reportes">
-            <ul class="list-group">
-                <li class="list-group-item">Cras justo odio</li>
-                <li class="list-group-item">Dapibus ac facilisis in</li>
-                <li class="list-group-item">Morbi leo risus</li>
-                <li class="list-group-item">Porta ac consectetur ac</li>
-                <li class="list-group-item">Vestibulum at eros</li>
-              </ul>
+          <ul class="list-group">
+            <p class="text-secondary">Nombre:</p>  
+            <li class="list-group-item">Abel</li>
+            <br>
+            <p class="text-secondary">Apellido:</p>  
+            <li class="list-group-item">Martín</li>
+            <br>
+            <p class="text-secondary">Correo electrónico:</p>  
+            <li class="list-group-item">Morbi leo risus</li>
+            <br>
+            <p class="text-secondary">Dirección de la fuga:</p>  
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <br>
+            <p class="text-secondary">Referencia</p>  
+            <li class="list-group-item">Vestibulum at eros</li>
+            <br>
+            <p class="text-secondary">Que hacia al hacer la fuga:</p>  
+            <li class="list-group-item">Vestibulum at eros</li>
+            <br>
+            <p class="text-secondary">Reporte</p>  
+            <li class="list-group-item">Vestibulum at eros</li>
+            <br>
+            <p class="text-secondary">Imagen</p>  
+          </ul>
         </div>
-        <br>
-        <a href=""><button type="button" id="button1" class="btn btn-success">Enviar</button></a>
-        <a href=""><button type="button" id="button2" class="btn btn-success">Enviar</button></a>
+      <br>
+      <div class="border-top my-3"></div>
+      <br>
+      <div class="container-report-comments">
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Comentarios</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <a href="adminsentreport.html"><button type="button" id="button1" class="btn btn-success">Enviar</button></a>
+
       </div>
+      </div>
+      <br><br><br>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <footer class="page-footer font-small fixed-bottom green">
-      <div class="footer-copyright text-center">
-        <a href="Page-Quality.html"> Page Quality Check</a>
-      </div>
-    </footer>
   </body>
+  <footer class="site-footer">
+    <div class="card-footer text-center text-muted">
+      <br>
+      @2020 Copyright: Gobierno de la Ciudad de México
+    </div>
+  </footer>
 </html>
