@@ -9877,21 +9877,21 @@ h3 {
 }
 .btn.btn-primary {
   background-color: #29a538;
-  border-color: white;
+  border-color: #29a538;
 }
 
 /* common */
 .ribbon {
   width: 150px;
   height: 150px;
-  z-index: 0;
-  overflow: visible;
+  overflow: hidden;
   position: absolute;
 }
 
 .ribbon::before,
 .ribbon::after {
   position: absolute;
+  overflow: hidden;
   content: "";
   display: block;
   border: 5px solid black;
