@@ -9876,7 +9876,7 @@ h3 {
   }
 }
 .btn.btn-primary {
-  background-color: #29a538;
+  background-color: yellow;
   border-color: white;
 }
 
@@ -9977,7 +9977,7 @@ h3 {
   width: 45%;
   height: auto;
   min-height: auto;
-  min-width: 240px;
+  min-width: 200px;
   padding-left: 10px;
 }
 
@@ -9990,6 +9990,33 @@ h3 {
   font-size: 1.5vw;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.container .img-fluid {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.container .mt-4, h2 {
+  text-align: center;
+}
+
+.container .card-header {
+  text-align: center;
+  background-color: yellow;
+}
+
+.container .card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.container .btn {
+  display: inline-block;
+  margin: 5px;
 }
 
 /*# sourceMappingURL=home.css.map */

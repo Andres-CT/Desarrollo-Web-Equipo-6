@@ -1,15 +1,14 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="styles/css/style-form.css" rel="stylesheet">
-    <link href="styles/css/page-quality.css" rel="stylesheet"> 
+    <link href="styles/css/style-form.css" rel="stylesheet"> 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Screenshots</title>
+    <title>Reporte</title>
   </head>
   <header>
     <div class="nav-bar">
@@ -24,18 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="home.html">Inicio<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="activereports.html">Reportes Activos<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index2.html">Reporte<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="listareportes.html">Lista</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Estado</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Logout</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="home.html">Cerrar sesión</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="adminlogin.html">Admin</a>
-            </li>
-
           </ul>
         </div>
       </nav>
@@ -43,30 +40,25 @@
   </header>
   <body>
     <div class="container">
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Página</th>
-            <th scope="col">Html</th>
-            <th scope="col">SCSS</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Inicio</td>
-            <td><img src="images/Home-html-validated.PNG"></td>
-            <td><img src="images/Home-html-validated.PNG"></td>
-          </tr>
+        <br><br>
+        <h1>El reporte ha sido enviado</h1>        
+        <br>
+        <br>
+        <a href="activereports.html"><button type="button" id="buttonreport" class="btn btn-primary">Ir a Reportes</button></a>
     </div>
+    <br><br><br>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <footer class="page-footer font-small fixed-bottom green">
-      <div class="footer-copyright text-center">
-        <a href="Page-Quality.html"> Page Quality Check</a>
-      </div>
-    </footer>
-  </body>
+    <footer class="fixed-bottom">
+        <div class="card-footer text-center text-muted">
+          <br>
+          @2020 Copyright: Gobierno de la Ciudad de México
+          
+        </div>
+      </footer>  
+
+</body>
 </html>
