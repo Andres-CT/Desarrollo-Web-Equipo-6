@@ -1,0 +1,64 @@
+<app-header-no-ribbon></app-header-no-ribbon>
+<div class="container">
+    <div class="text-heading">
+      <br><br>
+      <h1>Haz tu Reporte de Fuga</h1>
+      <br>
+      <h2>Gracias por realizar tu reporte</h2>
+      <p class="text-secondary">
+        Para realizar tu reporte necesitamos que nos proporciones tu Nombre y 
+        Apellido, Correo Electrónico, Dirección de la Fuga, una Referencia de la Dirección, tu Profesión o 
+        que hacias al ver la fuga, el Reporte y si lo deseas tambien puedes subir una imágen. 
+      </p>       
+    </div>
+    <form>
+      <div id="container-form">
+        <div class="form-row">
+          <div class="col">
+            <label >Nombre(s)</label>
+            <input type="text" class="form-control" placeholder="Nombre(s)">
+          </div>
+          <div class="col">
+            <label >Apellido(s)</label>
+            <input type="text" class="form-control" placeholder="Apellido(s)">
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Correo Electrónico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo">
+          <small id="emailHelp" class="form-text text-muted">No compartiremos tu correo con ningun institución o dependencia.</small>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Dirección de la fuga</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Escriba la dirección">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Referencia de la dirección</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Escriba una referencia (calle, avenida, etc.)">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Que hacía al hacer la fuga</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Reportero</option>
+            <option>Agente de la SSP</option>
+            <option>Transeunte</option>
+            <option>Comerciante</option>
+            <option>Otro</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Escriba su reporte: </label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </div>
+    </form>
+    <div class="form-group">
+      <label for="exampleFormControlFile1">Imagen</label>
+      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      <small>Opcional*</small>
+
+    </div>
+    <a [routerLink]="['/cliente-enviado']" routerLinkActive="router-link-active"  class="btn btn-success" role="button">Enviar</a>
+<br><br><br><br><br><br>
+</div>
