@@ -1,5 +1,12 @@
 {
+    "HEADER" : {
+        "INICIO": "Home",
+        "REPORTE": "Report",
+        "ESTADO": "Status"
+    
+    },
     "HOME" : {
-        "BIENVENIDO": "Welcome!"
+        "BIENVENIDO": "Welcome!",
+        "SUBTITLE": "Water Leak Report System of Mexico City"
     }
 }
