@@ -1,5 +1,18 @@
 {
+    "HEADER" : {
+        "INICIO": "Home",
+        "REPORTE": "Report",
+        "ESTADO": "Status"
+    
+    },
     "HOME" : {
-        "BIENVENIDO": "Welcome!"
+        "BIENVENIDO": "Welcome!",
+        "SUBTITLE": "Water Leak Report System of Mexico City",
+        "MAKEREPORT": "Make a Report!",
+        "REPORTDESC": "Thank you very much for your contribution to the city. If you want to make a water leak report, click here.",
+        "CHECKSTATUS": "Status",
+        "STATUSREPORT": "If you have already made a report and want to know if the leak has already been made, click here.",
+        "THEPLATFORM": "The Platform",
+        "THEPLATFORMDESC": "If you want to know more information about this platform click here."
     }
 }
