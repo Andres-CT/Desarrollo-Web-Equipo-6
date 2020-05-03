@@ -1,5 +1,12 @@
-{
+{   
+    "HEADER" : {
+        "INICIO": "Inicio",
+        "REPORTE": "Reporte",
+        "ESTADO": "Estado"
+    
+    },
     "HOME" : {
-        "BIENVENIDO": "Bienvenido!"
+        "BIENVENIDO": "Bienvenido!",
+        "SUBTITLE": "Sistema de reportes de fuga de agua de la Ciudad de México"
     }
 }
