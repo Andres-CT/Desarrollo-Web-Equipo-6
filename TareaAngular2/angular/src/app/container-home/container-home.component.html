@@ -13,34 +13,34 @@
     <div class="row">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Reporta!</h4>
+          <h4 class="card-header">{{ "HOME.MAKEREPORT" | translate }}</h4>
           <div class="card-body">
-            <p class="card-text">Muchas gracias por tu contribución con la ciudad. Si deseas realizar un reporte de fuga de agua, da clic aquí.</p>
+            <p class="card-text">{{ "HOME.REPORTDESC" | translate }}</p>
           </div>
           <div class="card-footer">
-            <a [routerLink]="['/reporte']" routerLinkActive="router-link-active"  class="btn btn-primary">Reporte</a>
+            <a [routerLink]="['/reporte']" routerLinkActive="router-link-active"  class="btn btn-primary">{{ "HOME.MAKEREPORT" | translate }}</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Estado</h4>
+          <h4 class="card-header">{{ "HOME.CHECKSTATUS" | translate }}</h4>
           <div class="card-body">
-            <p class="card-text">Si ya hiciste un reporte y deseas saber si la fuga ya fue compuesta, da clic aquí.</p>
+            <p class="card-text">{{ "HOME.STATUSREPORT" | translate }}</p>
           </div>
           <div class="card-footer">
-            <a [routerLink]="['/estado']" routerLinkActive="router-link-active"  class="btn btn-primary">Estado</a>
+            <a [routerLink]="['/estado']" routerLinkActive="router-link-active"  class="btn btn-primary">{{ "HOME.CHECKSTATUS" | translate }}</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">La Plataforma</h4>
+          <h4 class="card-header">{{ "HOME.THEPLATFORM" | translate }}</h4>
           <div class="card-body">
-            <p class="card-text">Si deseas saber mas información de esta plataforma da clic aquí.</p>
+            <p class="card-text">{{ "HOME.THEPLATFORMDESC" | translate }}</p>
           </div>
           <div class="card-footer">
-            <a href="proyectexplanation.html" class="btn btn-primary">Explicación</a>
+            <a href="proyectexplanation.html" class="btn btn-primary">{{ "HOME.THEPLATFORM" | translate }}</a>
           </div>
         </div>
       </div>
