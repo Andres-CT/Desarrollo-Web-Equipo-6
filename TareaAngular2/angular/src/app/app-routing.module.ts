@@ -1,0 +1,34 @@
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { ReporteComponent } from './reporte/reporte.component';
+import { ReporteClienteEnviadoComponent } from './reporte-cliente-enviado/reporte-cliente-enviado.component';
+import { EstadoComponent } from './estado/estado.component';
+import { AdminComponent } from './admin/admin.component';
+import { ReportesActivosComponent } from './reportes-activos/reportes-activos.component';
+import { ListaReportesComponent } from './lista-reportes/lista-reportes.component';
+import { ReporteAdminComponent } from './reporte-admin/reporte-admin.component';
+import { ReporteEnviadoComponent } from './reporte-enviado/reporte-enviado.component';
+import { ContainerHomeComponent } from './container-home/container-home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
+
+const routes: Routes = [
+  { path: "", redirectTo: "/home", pathMatch: "full"},
+  { path: "home", component: ContainerHomeComponent},
+  { path: 'reporte', component: ReporteComponent},
+  { path: 'cliente-enviado', component: ReporteClienteEnviadoComponent},
+  { path: 'estado', component: EstadoComponent},
+  { path: 'admin', component: AdminComponent},
+  { path: 'reportes-activos', component: ReportesActivosComponent},
+  { path: 'lista-reportes', component: ListaReportesComponent},
+  { path: 'reporte-admin', component: ReporteAdminComponent},
+  { path: 'reporte-enviado', component: ReporteEnviadoComponent},
+  { path: '**', component: PageNotFoundComponent}
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+export const routingComponents = [ContainerHomeComponent,ReporteComponent, ReporteClienteEnviadoComponent, EstadoComponent, AdminComponent, ReportesActivosComponent, ListaReportesComponent, ReporteAdminComponent, ReporteEnviadoComponent, PageNotFoundComponent]
