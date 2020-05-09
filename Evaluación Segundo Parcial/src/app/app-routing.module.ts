@@ -14,11 +14,11 @@ import { GraficaComponent } from './grafica/grafica.component';
 
 const routes: Routes = [
   { path: "", redirectTo: "/home", pathMatch: "full"},
-  { path: "home", data: {animation: 'isRight'},component: ContainerHomeComponent},
-  { path: 'reporte', data: {animation: 'isLeft'},component: ReporteComponent},
+  { path: "home", data: {animation: 'inicio'}, component: ContainerHomeComponent},
+  { path: 'reporte',data: {animation: 'reporte'}, component: ReporteComponent},
   { path: 'cliente-enviado', component: ReporteClienteEnviadoComponent},
-  { path: 'estado', component: EstadoComponent},
-  { path: 'admin', component: AdminComponent},
+  { path: 'estado',data: {animation: 'estado'},component: EstadoComponent},
+  { path: 'admin', data: {animation: 'admin'}, component: AdminComponent},
   { path: 'reportes-activos', component: ReportesActivosComponent},
   { path: 'lista-reportes', component: ListaReportesComponent},
   { path: 'reporte-admin', component: ReporteAdminComponent},
