@@ -295,6 +295,10 @@ textarea {
   resize: vertical;
 }
 
+.text-heading {
+  margin-top: 10%;
+}
+
 fieldset {
   min-width: 0;
   padding: 0;
