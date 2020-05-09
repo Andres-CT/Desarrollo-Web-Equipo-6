@@ -11051,4 +11051,11 @@ body {
   margin: 5px;
 }
 
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 2px solid gainsboro;
+}
+
 /*# sourceMappingURL=header.component.css.map */

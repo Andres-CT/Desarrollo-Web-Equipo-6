@@ -11007,6 +11007,14 @@ body {
   height: auto;
 }
 
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 2px solid gainsboro;
+  z-index: 9;
+}
+
 .nav-bar img {
   width: 45%;
   height: auto;

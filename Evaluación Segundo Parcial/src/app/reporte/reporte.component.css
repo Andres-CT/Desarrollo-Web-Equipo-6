@@ -221,6 +221,10 @@ label {
   margin-bottom: 0.5rem;
 }
 
+.text-heading {
+  margin-top: 8.5%;
+}
+
 button {
   border-radius: 0;
 }
@@ -5759,11 +5763,6 @@ a.close.disabled {
   overflow: hidden;
 }
 
-.modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
 .modal {
   position: fixed;
   top: 0;
@@ -5774,6 +5773,10 @@ a.close.disabled {
   height: 100%;
   overflow: hidden;
   outline: 0;
+}
+
+.container-form {
+  z-index: 1000;
 }
 
 .modal-dialog {

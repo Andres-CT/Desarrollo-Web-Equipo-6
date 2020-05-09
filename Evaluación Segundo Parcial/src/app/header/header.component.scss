@@ -10484,3 +10484,9 @@ body {
   display: inline-block;
   margin: 5px;
 }
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 2px solid rgb(220,220,220);
+}
