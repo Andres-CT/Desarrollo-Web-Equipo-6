@@ -1,14 +1,16 @@
 
 <app-header></app-header>
 <div class="container">
+    
+  <div class = "text-heading">
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3">{{ "HOME.BIENVENIDO" | translate }}
       <small></small>
     </h1>
     <h2> {{ "HOME.SUBTITLE" | translate }}</h2>
     <!-- Image Header -->
-    <img class="img-fluid rounded mb-4" src="assets/images/cdmx.jpg" alt="">
-
+    <img @enterState class="img-fluid rounded mb-4" src="assets/images/cdmx.jpg" alt="">
+  </div>
     <!-- Marketing Icons Section -->
     <div class="row">
       <div class="col-lg-4 mb-4">
