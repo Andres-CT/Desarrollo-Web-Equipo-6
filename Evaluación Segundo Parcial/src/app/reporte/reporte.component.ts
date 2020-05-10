@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { User } from './user'
 @Component({
   selector: 'app-reporte',
   templateUrl: './reporte.component.html',
@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ReporteComponent implements OnInit {
 
   constructor() { }
-
+  tipoPersonas = ["Reportero","Agente de la SSP", "Transeunte", "Comerciante", "Otro"];
+  userModel = new User('','','','','', '','', null);
   ngOnInit(): void {
   }
 
